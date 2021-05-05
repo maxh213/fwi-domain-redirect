@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get_index():
-    return redirect("https://fishwelfareinitiative/", code=302)
+    return redirect("https://fishwelfareinitiative.org/", code=302)
 
 @app.route('/health', methods=['GET'])
 def health():
